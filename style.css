@@ -2,21 +2,77 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    background-color: #7CC1AC;
 }
 
 #tentacles {
     width: 50px;
 }
 
+h1 {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    text-shadow: 5px 5px #40B3A2;
+}
+
+h3 {
+    font-size: 24px
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 18px;
+}
+
+#description-container {
+    text-align: center;
+}
+
+.header-container {
+    position: fixed;
+    background-color: #85CDCA;
+    width: 100%;
+}
+
 .header {
     display: flex;
-    background-color: lightblue;
+    background-color: #85CDCA;
     padding: 1%;
     align-items: center;
     margin-left: -10px;
     margin-right: -10px;
-    margin-top: -10px;
+    margin-top: -20px;
+}
+
+.header-container .header .menu {
+    display: flex;
+}
+.header-container .header .menu li {
+    list-style: none;
+    margin: 0 15px;
+}
+.header-container .header .menu li a {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.gap {
+    padding-top: 100px;
 }
 
 .stats-container {
@@ -29,11 +85,11 @@ body {
 
 .stats-container:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 30px #40B3A2;
 }
 
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: #85CDCA;
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
@@ -43,6 +99,9 @@ body {
 
 #num-contributions, #total-raised, #num-games {
     font-size: 50px;
+    color: #E27D5F;
+    text-shadow: 2px 2px 2px white;
+    font-weight: 600;
 }
 
 #games-container {
@@ -82,4 +141,10 @@ button {
     margin: 1%;
     border-radius: 7px;
     cursor: pointer;
+    background-color: #F8C2C0;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px 5px #40B3A2;
 }
