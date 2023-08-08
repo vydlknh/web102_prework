@@ -24,7 +24,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://i.imgur.com/YGuAXg5.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/vydlknh/web102_prework/blob/main/vy%20do%20webpage%20walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with LICEcap
